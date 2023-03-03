@@ -14,4 +14,18 @@ const gameName = new String("hitesh-hc-com");
 // console.log(gameName.toLowerCase());
 
 // console.log(gameName.charAt(2));
-console.log(gameName.indexOf('t'));
+// console.log(gameName.indexOf('t'));
+
+const newString = gameName.substring(0,6)
+// console.log(newString);
+
+const newStringOne = "           afzal              "
+// console.log(newStringOne.trim().length);
+
+const url = "https://afzalsorathiya.com/mohmad%20afzal%20sorathiya"
+console.log(url.replace('%20','-'));
+
+console.log(url.includes('afzalsorathiya'));
+
+
+console.log(gameName.split('-'));
